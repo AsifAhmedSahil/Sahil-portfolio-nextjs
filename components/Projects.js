@@ -49,7 +49,7 @@ const Projects = () => {
           />
 
           <ProjectsItems
-            title="Twitter Clone"
+            title="Twitch Clone"
             backgroundImg={twitchImg}
             projectUrl="/twitch"
           />
