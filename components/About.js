@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import picture from "../public/about.jpg"
 
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
             </div>
             <div className='w-full h-full m-auto shadow-xl shadow-gray-700 rounded-2xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image className='rounded-xl'  src="/../public/about.jpg" height='500' width='500' alt=''/>
+            <Image className='rounded-xl'  src={picture} height='500' width='500' alt=''/>
             </div>
         </div>
     </div>

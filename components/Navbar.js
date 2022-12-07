@@ -5,6 +5,7 @@ import {AiOutlineClose,AiOutlineMenu,AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn,FaGithub} from 'react-icons/fa'
 import{BsFillPersonFill} from 'react-icons/bs'
 import { useRouter } from 'next/router';
+import asif from "../public/assets/asif.png"
 
 const Navbar = () => {
 
@@ -55,7 +56,7 @@ const Navbar = () => {
      className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20  z-[100]"}>
         <div className='flex justify-between items-center w-full h-full px2 2xl:px-16'>
             <Link href="/">
-            <Image className='cursor-pointer' src="/../public/assets/asif.png" height='200' width='200' alt=''/>
+            <Image className='cursor-pointer' src={asif} height='200' width='200' alt=''/>
             </Link>
             <div>
                 <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
