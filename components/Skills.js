@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import css from "../public/assets/skills/css.png"
 
 const Skills = () => {
   return (
@@ -23,7 +24,7 @@ const Skills = () => {
               <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image src='/../public/assets/skills/css.png' alt='/' width='64px' height='64px'/>
+                    <Image src={css} alt='/' width='64px' height='64px'/>
                   </div>
                   <div className='flex flex-col justify-center items-center'>
                     <h3>CSS3</h3>
