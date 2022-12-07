@@ -5,6 +5,7 @@ import {FaLinkedinIn,FaGithub} from 'react-icons/fa'
 import{BsFillPersonFill} from 'react-icons/bs'
 import Link from 'next/link'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import img from "../public/assets/contact.jpg"
 
 
 
@@ -20,7 +21,7 @@ const Contect = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                        <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/contact.jpg" height='300' width='400' alt=''/>
+                        <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={img} height='300' width='400' alt=''/>
                         </div>
 
                         <div>
