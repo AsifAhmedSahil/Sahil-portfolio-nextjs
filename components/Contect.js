@@ -52,7 +52,7 @@ const Contect = () => {
             <div className='col-span-3 w-full h-full shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                 <div className='p-4'>
 
-                    <form >
+                    <form action="https://formsubmit.co/17cb17cc59a5b09ba730449625bec0ab" method="POST">
                         <div className='grid md:grid-cols-2 gap-4'>
                             <div className='flex flex-col'>
                                 <label className='uppercase text-sm py-2'>name</label>

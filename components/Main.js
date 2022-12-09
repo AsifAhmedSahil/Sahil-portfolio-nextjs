@@ -54,6 +54,11 @@ const Main = () => {
                          <Link href="/#about"><BsFillPersonFill/></Link>
                     </div>
                 </div>
+                <div>
+                <a href="https://drive.google.com/file/d/1gy8obe6nFzA6OMF2-fWyJrmg-NSj_5fF/view?fbclid=IwAR00tSdfiNFwJfydlGjEmlt7Fbw3R3kxVbLMO0HmU0B3NSJ1T0znb0NRDD8">
+                <button type="button" className="inline-block px-6 py-2.5 mt-6 animate-bounce bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out">Download Resume   </button>
+                </a>
+                </div>
             </div>
         </div>
     </div>
