@@ -3,10 +3,13 @@ import React from 'react';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import MicrosoftDetails from './MicrosoftDetails';
+import Netflix from './Netflix1';
 
 const netflix = () => {
   return (
-    <div className='w-full'>
+    <>
+      <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-gray-300/80 z-10' />
         <Image
@@ -60,11 +63,24 @@ const netflix = () => {
             </div>
           </div>
         </div>
-        <Link href='/#project'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+        
       </div>
     </div>
+
+    <div className=" grid grid-cols-1 md:grid-cols-2 mb-10 gap-10  max-w-[1240px] mx-auto">
+        <Netflix/>
+
+
+        
+      </div>
+
+      <Link href="/#project" >
+            <p className="underline cursor-pointer max-w-[1240px] mx-auto text-red-500 animate-bounce text-2xl">Back</p>
+          </Link>
+      
+
+
+    </>
   );
 };
 
