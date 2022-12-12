@@ -7,6 +7,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contect from '../components/Contect'
+import Blogs from '../components/Blogs'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <About/>
       <Skills/>
       <Projects/>
+      <Blogs/>
       <Contect/>
     </div>
   )
